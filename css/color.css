@@ -1,0 +1,19 @@
+/* Color */
+
+.my-resume .education h5,.fun-facts h2,
+.fun-facts span,
+.contact-info a,
+.happy-satisfied h2,.meta-links li a:hover,
+.hello-im a,.recent-data h6,
+ul.tage h4,.previews a,.one-comment span,
+.marker span,li.client-data i,.provide li i,.svg-img i {
+    color: var(--color-theme);
+}
+
+/* Background color-theme */
+.education h5:before,.my-resume .education h5:after,.icon-box i,
+ul.social-media-footer.head li a i:hover,
+ul.time-number li:before,.one-comment a,.recent-news h4:before,
+.categories li:hover,.prev-work-one a:hover i{
+    background-color: var(--color-theme);
+}

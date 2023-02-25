@@ -1,0 +1,40 @@
+.side-popup {
+    position: fixed;
+    top: 0%;
+    right: 0;
+    z-index: 88888222;
+    transition: 0.35s linear 0s;
+  }
+  .demos-main.hide-content {
+      visibility: hidden;
+      width: 0px;
+      opacity: 0;
+  }
+  .demos-main.show-content {
+      visibility: visible;
+      width: auto;
+      opacity: 1;
+  }
+  .demos-main {
+      background: #f3f3f3;
+      padding: 20px;
+  }
+  #demos-c li a {
+      width: 100%;
+      display: block;
+      padding-bottom: 10px;
+      text-align: center;
+      color: #000;
+      font-weight: bold;
+      font-family: inherit;
+      font-size: 14px;
+  }
+  .demos-main li {
+      margin-bottom: 10px;
+  }
+  #demos-c{
+  
+      height: 500px;
+      overflow: auto;
+  
+  }
